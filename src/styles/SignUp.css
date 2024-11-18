@@ -1,0 +1,76 @@
+/* Center the form in the middle of the viewport */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f2f5; /* Light background color */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 40px;
+  border-radius: 10px; /* Slightly rounded corners */
+  background-color: #fff; /* White background for contrast */
+  width: 350px; /* Increase the form width for more space */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow to highlight the form */
+}
+
+form h2 {
+  margin-bottom: 20px;
+  font-size: 24px; /* Larger heading */
+  color: #333; /* Darker text color for contrast */
+  text-align: center; /* Centered heading */
+}
+
+form label {
+  margin-top: 10px;
+  align-self: flex-start; /* Align label to the left */
+  font-size: 14px;
+  color: #555; /* Slightly lighter text for labels */
+}
+
+form input {
+  padding: 12px; /* Increase padding for better input usability */
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease; /* Smooth transition for focus effect */
+}
+
+
+button {
+  padding: 12px 25px; /* Increase button padding */
+  background-color: #115eb1;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%; /* Make the button take full width */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+button:hover {
+  background-color: #0d65c2; /* Darker background on hover */
+}
+
+span {
+  cursor: pointer;
+  color: #007bff;
+  font-size: 14px;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+}
+
+span:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
